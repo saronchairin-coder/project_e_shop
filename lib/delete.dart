@@ -10,6 +10,10 @@ class Delete extends StatefulWidget {
 class _DeleteState extends State<Delete> {
   @override
   Widget build(BuildContext context) {
-    return Text("test delete");
+    return Scaffold(
+      body: Center(
+        child: Text("Delete"),
+      ),
+    );
   }
 }
